@@ -28,12 +28,13 @@ header{
  
 
 .bg-custom{
-    background-color: rgba(73, 73, 73, 0.534);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #logo{
-    width:200px;
-    height:100px;
+    width:335px;
+    height:93px;
+    padding-left: 10px;
 }
 
 .navbar-toggler{
@@ -217,7 +218,7 @@ footer{
   /*KONIEC STOPKI*/
 
 
-.of
+
 
 
 #scrollUpBtn{
@@ -333,12 +334,14 @@ footer{
     font-weight: 700;
     border-radius: 20px;
     
+    
 }
 
 .icons-header{
     color: white;
     font-weight: 700;
     display: flex;
+    
 }
 
 .icons{
@@ -347,8 +350,14 @@ footer{
     height: 270px;
     width: 290px;
     margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
 }
 
+.icons .fas{
+    padding-left: 12px;
+}
 .slideshow-container {
     position: relative;
     margin: auto; 
