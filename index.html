@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>STOL-HAT</title>
+    <meta name="description" content="meble na wymiar">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+
+    <!-- do kategori w galerii -->
+</head>
+
+<body>
+    <header>
+        <div class="bg-image">
+            <nav class=" navbar fixed-top navbar-expand-lg navbar-light bg-custom">
+                <a class="navbar-brand" href="#"><img id="logo" src="images/logo-white.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav nav-ul">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Strona główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Realizacje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"><button class="btn" type="button">Napisz do
+                                    mnie</button></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+            
+                <div class="col-xl-6 p-5">
+                    <div class="oferta p-5 align-top">
+
+                        <h1>Oferujemy</h1>
+
+                        <p> t is a long established fact that a reader will be distracted by the readable content of a
+                            page when
+                            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                            distribution of letters, as opposed to using 'Content here, content here', making it look
+                            like
+                            readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum
+                            as their
+                            default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                            their
+                            infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+                            purpose
+                            (injected humour and the like).</p><br>
+                            
+
+
+                    </div>
+                    <div class="icons-header">
+                        <div class="icons rounded-circle"></div>
+                        <div class="icons rounded-circle"></div>
+                        <div class="icons rounded-circle"></div>
+                    </div>
+                </div>
+            
+            
+                <div class="col-xl-6">
+                    <div class="slideshow-container">
+
+
+                        <div class="mySlides fade">
+                            <img src="images/bathroom-19.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/kitchen-24.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/wardrobes-28.jpg" style="width:100%">
+                        </div>
+
+                    </div>
+                </div>
+
+            
+
+
+    </header>
+
+
+    <main>
+        <section id="gallery">
+            <div class="container-fluid no-gutters">
+                <div class="row">
+                    <div class="col-12 category-filter" id="gallery-baner">
+                        <div id="gallery-header">Galeria</div>
+                        <ul class="list-group list-group-horizontal">
+                            <a href="#gallery"
+                                class="gallery-li list-group-item list-group-item-action border-0"><button
+                                    class=" category-button active mr-3" data-filter="all">Wszystko</button></a>
+                            <a href="#gallery"
+                                class="gallery-li list-group-item list-group-item-action border-0"><button
+                                    class=" category-button mr-3" data-filter="kitchen">Kuchnie</button></a>
+                            <a href="#gallery"
+                                class="gallery-li list-group-item list-group-item-action border-0"><button
+                                    class=" category-button mr-3" data-filter="bathroom">Łazienki</button></a>
+                            <a href="#gallery"
+                                class="gallery-li list-group-item list-group-item-action border-0"><button
+                                    class=" category-button mr-3" data-filter="wardrobes">Garderoby</button></a>
+                            <a href="#gallery"
+                                class="gallery-li list-group-item list-group-item-action border-0"><button
+                                    class=" category-button mr-3" data-filter="other">Inne</button></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid gallery-box">
+                <div class="row overflow-auto" style="height: 660px;">
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-1.jpg" alt="11" data-lightbox="mygallery"><img
+                                src="images/kitchen-1.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-2.jpg" alt="12" data-lightbox="mygallery"><img
+                                src="images/kitchen-2.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-3.jpg" alt="13" data-lightbox="mygallery"><img
+                                src="images/kitchen-3.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-4.jpg" alt="14" data-lightbox="mygallery"><img
+                                src="images/kitchen-4.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-5.jpg" alt="15" data-lightbox="mygallery"><img
+                                src="images/kitchen-5.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-6.jpg" alt="16" data-lightbox="mygallery"><img
+                                src="images/kitchen-6.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-7.jpg" alt="17" data-lightbox="mygallery"><img
+                                src="images/kitchen-7.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-8.jpg" alt="18" data-lightbox="mygallery"><img
+                                src="images/kitchen-8.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-9.jpg" alt="19" data-lightbox="mygallery"><img
+                                src="images/kitchen-9.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter kitchen">
+                        <a href="images/kitchen-10.jpg" alt="20" data-lightbox="mygallery"><img
+                                src="images/kitchen-10.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-1.jpg" alt="1" data-lightbox="mygallery"><img
+                                src="images/bathroom-1.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/images/bathroom-2.jpg" alt="2" data-lightbox="mygallery"><img
+                                src="images/bathroom-2.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-3.jpg" alt="3" data-lightbox="mygallery"><img
+                                src="images/bathroom-3.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-4.jpg" alt="4" data-lightbox="mygallery"><img
+                                src="images/bathroom-4.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-5.jpg" alt="5" data-lightbox="mygallery"><img
+                                src="images/bathroom-5.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-6.jpg" alt="6" data-lightbox="mygallery"><img
+                                src="images/bathroom-6.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-7.jpg" alt="7" data-lightbox="mygallery"><img
+                                src="images/bathroom-7.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-8.jpg" alt="8" data-lightbox="mygallery"><img
+                                src="images/bathroom-8.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-9.jpg" alt="9" data-lightbox="mygallery"><img
+                                src="images/bathroom-9.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter bathroom">
+                        <a href="images/bathroom-10.jpg" alt="10" data-lightbox="mygallery"><img
+                                src="images/bathroom-10.jpg" class="img-fluid"></a>
+                    </div>
+
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-1.jpg" alt="10" data-lightbox="mygallery"><img
+                                src="images/wardrobes-1.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/images/wardrobes-2.jpg" alt="2" data-lightbox="mygallery"><img
+                                src="images/wardrobes-2.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-3.jpg" alt="3" data-lightbox="mygallery"><img
+                                src="images/wardrobes-3.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-4.jpg" alt="4" data-lightbox="mygallery"><img
+                                src="images/wardrobes-4.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-5.jpg" alt="5" data-lightbox="mygallery"><img
+                                src="images/wardrobes-5.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-6.jpg" alt="6" data-lightbox="mygallery"><img
+                                src="images/wardrobes-6.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-7.jpg" alt="7" data-lightbox="mygallery"><img
+                                src="images/wardrobes-7.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-8.jpg" alt="8" data-lightbox="mygallery"><img
+                                src="images/wardrobes-8.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-9.jpg" alt="9" data-lightbox="mygallery"><img
+                                src="images/wardrobes-9.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter wardrobes">
+                        <a href="images/wardrobes-10.jpg" alt="10" data-lightbox="mygallery"><img
+                                src="images/wardrobes-10.jpg" class="img-fluid"></a>
+                    </div>
+
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-1.jpg" alt="21" data-lightbox="mygallery"><img src="images/other-1.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-2.jpg" alt="22" data-lightbox="mygallery"><img src="images/other-2.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-3.jpg" alt="23" data-lightbox="mygallery"><img src="images/other-3.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-4.jpg" alt="24" data-lightbox="mygallery"><img src="images/other-4.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-5.jpg" alt="5" data-lightbox="mygallery"><img src="images/other-5.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-6.jpg" alt="6" data-lightbox="mygallery"><img src="images/other-6.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-7.jpg" alt="7" data-lightbox="mygallery"><img src="images/other-7.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-8.jpg" alt="8" data-lightbox="mygallery"><img src="images/other-8.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-9.jpg" alt="9" data-lightbox="mygallery"><img src="images/other-9.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="photo col-sm-4 col-md-3 filter other">
+                        <a href="images/other-10.jpg" alt="10" data-lightbox="mygallery"><img src="images/other-10.jpg"
+                                class="img-fluid"></a>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+        <section id="contact">
+            <div id="bg_image2">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <h1>Zapytaj o co chcesz. <br>Odpowiemy jak najszybciej</h1>
+
+                            <i class="fas fa-mobile-alt"></i>604-139-057<br>
+                            <i class="fas fa-map-marker-alt"></i>Boya-Żeleńskiego 5, 35-105 Rzeszów<br>
+                            <i class="far fa-envelope"></i>stolhat@gmail.com
+
+                        </div>
+                        <div class="col-xl-6" style="text-align: center;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.0288046426144!2d21.980080215716214!3d50.029556079419564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfba5faa1ef79%3A0x63c85044cd206c4b!2zQm95YS3Fu2VsZcWEc2tpZWdvIDUsIDM1LTEwNSBSemVzesOzdw!5e0!3m2!1spl!2spl!4v1623517038598!5m2!1spl!2spl"
+                                width="600" height="450" style="border: 4px #B55B58 solid;" allowfullscreen=""
+                                loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <h5>Wszelkie prawa zastrzeżone by GeneratorFrajdy &copy;</h5>
+    </footer>
+    <button id="scrollUpBtn"><i class="fas fa-arrow-up"></i></button>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/category-filter.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script type="text/javascript">
+        $('.category-filter .category-button').categoryFilter();
+    </script>
+</body>
+
+
+</html>
