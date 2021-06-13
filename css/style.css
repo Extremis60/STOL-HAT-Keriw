@@ -28,7 +28,7 @@ header{
  
 
 .bg-custom{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0,0.5);
 }
 
 #logo{
@@ -183,7 +183,7 @@ margin-right: auto !important;
   /* KONTAKT CSS */
   #bg_image2{
     background-image: url('../images/bg_image_concat.jpg');
-    height: 600px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -327,6 +327,9 @@ footer{
     
 }
 
+#navbar{
+    transition: top 0.5s;
+}
 
 .oferta{
     color: white;
