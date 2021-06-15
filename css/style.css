@@ -183,26 +183,25 @@ margin-right: auto !important;
   /* KONTAKT CSS */
   #bg_image2{
     background-image: url('../images/bg_image_concat.jpg');
-    height: 800px;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     margin-top: 20px;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     padding-top: 80px;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .col-xl-6 i{
     margin: 40px 20px 0px 10px;
-    font-size: 40px;
+    font-size: 30px;
   
 }
 
-.col-xl-6 h1{
-    font-weight: 700 !important;
-}
+
  
   /* KONIEC KONTAKT CSS */
 
@@ -250,6 +249,15 @@ footer{
         display: flex;
         justify-content: center;
     }
+    iframe{
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    #header-contact{
+        font-size: 10px !important;
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1140px) {
@@ -264,6 +272,7 @@ footer{
     .btn{
         font-size: 20px;
     }
+    
 }
 
 /* media do rozmiaru MEDIUM */
@@ -313,6 +322,11 @@ footer{
          
     
     }
+
+    #contact-header{
+        font-size: 30px;
+    }
+    
 }
 
 /* media do rozmiaru SMALL */
@@ -354,6 +368,10 @@ footer{
     }
     .bg-image{
         height: 740px;
+    }
+
+    #contact-header{
+        font-size: 27px;
     }
 }
 
@@ -400,7 +418,6 @@ footer{
 
     .oferta{
         margin-top: 30px !important;
-        pad
     }
 
     .oferta p{
@@ -424,6 +441,19 @@ footer{
         width: 120px !important;
         padding-top: 1px !important;
         margin: 20px 20px 0 20px !important;
+    }
+
+    #contact-header{
+        font-size: 24px;
+    }
+
+    .col-xl-6 i{
+        margin: 40px 20px 0px 10px;
+        font-size: 23px;
+      
+    }
+    #bg_image2{
+        font-size: 16px;
     }
 
 }
